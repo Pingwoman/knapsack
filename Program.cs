@@ -23,7 +23,7 @@ namespace knapsack
 
             List<Item> newItems = rucksack.getRucksack();
 
-            Console.WriteLine("Knapsack problem solution");
+            Console.WriteLine("Knapsack problem solution with C#");
 
             foreach (Item i in newItems)
             {

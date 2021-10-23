@@ -39,7 +39,7 @@ namespace knapsack
             return totalPrice;
         }
 
-        private void CheckSet(List<Item> items)
+        private void checkSet(List<Item> items)
         {
             if (_items == null)
             {
@@ -62,7 +62,7 @@ namespace knapsack
         public void permutation (List<Item> items)
         {
             if (items.Count > 0)
-                CheckSet(items);
+                checkSet(items);
                     
             for (int i = 0; i < items.Count; i++)
             {
